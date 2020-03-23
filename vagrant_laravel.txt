@@ -40,3 +40,20 @@ vagrant destroy
 
 (3)連進虛擬機
 vagrant ssh
+
+=============================================
+裝laravel
+1.連進虛擬機
+vagrant ssh
+
+2.裝laravel
+laravel new laravel
+
+3. 設定Homestead
+sites:
+    -
+        map: homestead.test
+        to: /home/vagrant/code/laravel/public
+
+
+

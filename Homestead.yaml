@@ -12,7 +12,7 @@ folders:
 sites:
     -
         map: homestead.test
-        to: /home/vagrant/code/public
+        to: /home/vagrant/code/laravel/public
 databases:
     - homestead
 features:
